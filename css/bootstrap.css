@@ -124,7 +124,14 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff;
+  /*background-color: #FFF;*/
+  background-image: url("../img/blog-small-law-office-glass-walls.jpg");
+  background-repeat: no-repeat;
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-size: cover;
 }
 
 [tabindex="-1"]:focus {
@@ -633,12 +640,16 @@ pre code {
 }
 
 .container {
-  width: 99%;
-  margin-right: 10px;
-  margin-left: 10px;
+  width: 100%;
+  margin-right: 10px ;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
   height: 100%;
   background-color: #92a8d1;
+  position: fixed;
 }
+
 
 @media (min-width: 576px) {
   .container {
@@ -4043,7 +4054,7 @@ tbody.collapse.show {
 }
 
 .card {
-  position: relative;
+  position: fixed;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: column;
@@ -4054,12 +4065,17 @@ tbody.collapse.show {
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
-  box-shadow: 0px 0px 17px black;
+  /*box-shadow: 0px 0px 17px black;
   margin-top: 25px;
   margin-left: 25px;
   margin-right: 25px;
-  width: 100%;
-  margin-bottom: 400px;
+  /*margin-bottom: 400px;*/
+  /*margin-bottom: 25px;*/
+  overflow-x: hidden;
+  overflow-y: auto;
+  background-color: #92a8d1;
+  height: 1500px;
+  width: 1500px: 
 }
 
 

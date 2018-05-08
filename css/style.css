@@ -1,0 +1,21 @@
+.panel-container {
+margin-right: 15px;
+margin-left: 15px;
+margin-top :15px;
+margin-bottom: 400px;
+background-color: #FFF;  
+z-index: 1;
+position: relative;
+}
+
+.top {
+right: 0%;
+left: 0%;
+top :0%;
+bottom: 0%;
+z-index: 2;
+border-style: solid;
+position: fixed;
+border-width: 10px;
+border-color: #92a8d1;
+}
